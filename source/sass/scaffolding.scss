@@ -1,8 +1,8 @@
 @font-face {
   font-weight: normal;
-  font-family: "PT Mono";
+  font-family: "Bebas Neue";
   font-style: normal;
-  src: url("../fonts/pt-mono-regular.woff2") format("woff2"), url("../fonts/pt-mono-regular.woff") format("woff");
+  src: url("../fonts/bebas_neue.woff2") format("woff2"), url("../fonts/bebas_neue.woff") format("woff");
   font-display: swap;
 }
 
@@ -23,9 +23,8 @@
 }
 
 body {
-  /* min-width: $mobile-width;
-  max-width: $desktop-max-width; */
-  width: 1920px;
+  min-width: $mobile-width;
+  max-width: $desktop-max-width;
 
   margin: 0 auto;
   padding: 0;
@@ -36,8 +35,8 @@ img {
   height: auto;
 }
 
-@mixin text-ptmono {
-  font-family: "PT Mono", "Courier New", monospace;
+@mixin title-bebas {
+  font-family: "Bebas Neue", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
 }

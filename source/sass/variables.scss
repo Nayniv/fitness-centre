@@ -2,21 +2,21 @@
 $mobile-width: 320px;
 $tablet-width: 768px;
 $desktop-width: 1024px;
-$desktop-max-width: 1920px;
+$desktop-max-width: 1366px;
 $mobile-width-only: 767px;
 $retina-dpi: 144dpi;
 $retina-dppx: 1.5dppx;
 
 /*цвета фонов*/
-$bg-color-hover: #00b2ff;
-$bg-footer: #fafafa;
-$bg-services-block: #1b2d37;
-$bg-body: #ffffff;
-$bg-color-header: #000000;
+$bg-color-blue: #1c3374;
+$bg-color-red: #ed0233;
+$bg-footer: #030a1a;
+$bg-gradient-blue-red: radial-gradient(33.97% 69.22% at 16.03% 39.06%, #003d85 99.48%, #b80027 99.03%);
+$bg-gradient-red-blue: linear-gradient(111.72deg, #ed0233 17.6%, #003eb7 95.31%);
+$bg-video: rgba(20, 54, 122, 0.5);
+$bg-hover-coach: rgba(16, 38, 84, 0.89);
 
 /*цвета текста*/
 $white-text: #ffffff;
-$grey-text: #666666;
-$blue-text: #00b2ff;
-$footer-title-color: #1b2d37;
-$footer-text-color: rgba(27,45,55,0.5);
+$cyan-text: #103aae;
+$blue-text: #102654;
