@@ -1,0 +1,32 @@
+.social-header {
+  align-self: flex-end;
+  width: 30%;
+}
+
+.social-header__list {
+  display: flex;
+  flex-direction: column;
+  @include normal-roboto;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  text-transform: uppercase;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-header__button {
+  text-decoration: none;
+  color: $white-text;
+}
+
+.social-header__item {
+  margin-bottom: 19px;
+}
+
+@media (min-width: $mobile-width) and (max-width: $desktop-width) {
+  .social-header {
+    display: none;
+  }
+}

@@ -1,4 +1,12 @@
 @font-face {
+  font-weight: bold;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  src: url("../fonts/bebas_neue_bold.woff2") format("woff2"), url("../fonts/bebas_neue_bold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
   font-weight: normal;
   font-family: "Bebas Neue";
   font-style: normal;
@@ -35,7 +43,13 @@ img {
   height: auto;
 }
 
-@mixin title-bebas {
+@mixin bold-bebas {
+  font-family: "Bebas Neue", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+@mixin normal-bebas {
   font-family: "Bebas Neue", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;

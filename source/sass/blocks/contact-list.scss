@@ -1,0 +1,53 @@
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 28px;
+  margin-bottom: 114px;
+}
+
+.contact-list__link {
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  @include bold-bebas;
+  font-size: 26px;
+  line-height: 26px;
+  color: $white-text;
+  letter-spacing: 0.02em;
+}
+
+.contact-list__link--phone {
+  letter-spacing: 0.035em;
+}
+
+@media (min-width: $tablet-width) and (max-width: $desktop-width) {
+  .contact-list {
+    padding-top: 38px;
+    margin-bottom: 74px;
+  }
+
+  .contact-list__link {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: $mobile-width-only) {
+  .contact-list__link {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .contact-list {
+    padding-top: 18px;
+    margin-bottom: 74px;
+  }
+
+  .contact-list__link--phone {
+    letter-spacing: 0.01em;
+  }
+}

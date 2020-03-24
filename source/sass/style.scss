@@ -1,7 +1,7 @@
-h1 {
-  color: red;
-}
-
 @import "normalize.scss";
 @import "variables.scss";
 @import "scaffolding.scss";
+@import "blocks/page-header.scss";
+@import "blocks/contact-list.scss";
+@import "blocks/title-page.scss";
+@import "blocks/social-header.scss";
