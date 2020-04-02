@@ -45,17 +45,18 @@
         url("../img/bg-header-tablet@2x.jpg");
     }
   }
-}
 
-.page-header__button {
-  width: 27.5%;
-  margin-left: 139px;
+  .page-header__button {
+    width: 27.5%;
+    margin-left: 139px;
+  }
 }
 
 @media (max-width: $mobile-width-only) {
   .page-header {
     padding: 0 5% 80px;
     background: url("../img/bg-header-mobile@1x.jpg") 21% 35% no-repeat;
+    background-size: cover;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/bg-header-mobile@2x.jpg");

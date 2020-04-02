@@ -1,6 +1,6 @@
 @font-face {
   font-weight: bold;
-  font-family: "Bebas Neue";
+  font-family: "Bebas Neue bold";
   font-style: normal;
   src: url("../fonts/bebas_neue_bold.woff2") format("woff2"), url("../fonts/bebas_neue_bold.woff") format("woff");
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-weight: normal;
-  font-family: "Roboto-Condensed";
+  font-family: "Roboto-Condensed-normal";
   font-style: normal;
   src: url("../fonts/roboto_condensed.woff2") format("woff2"), url("../fonts/roboto_condensed.woff") format("woff");
   font-display: swap;
@@ -24,9 +24,17 @@
 
 @font-face {
   font-weight: bold;
-  font-family: "Roboto-Condensed";
+  font-family: "Roboto-Condensed-bold";
   font-style: normal;
   src: url("../fonts/roboto_condensed_bold.woff2") format("woff2"), url("../fonts/roboto_condensed_bold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-weight: lighter;
+  font-family: "Roboto-Condensed";
+  font-style: normal;
+  src: url("../fonts/Robotocondensedlight.woff2") format("woff2"), url("../fonts/Robotocondensedlight.woff") format("woff");
   font-display: swap;
 }
 
@@ -44,7 +52,7 @@ img {
 }
 
 @mixin bold-bebas {
-  font-family: "Bebas Neue", "Arial", sans-serif;
+  font-family: "Bebas Neue bold", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
 }
@@ -56,15 +64,21 @@ img {
 }
 
 @mixin bold-roboto {
-  font-family: "Roboto-Condensed", "Arial", sans-serif;
+  font-family: "Roboto-Condensed-bold", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
 }
 
 @mixin normal-roboto {
-  font-family: "Roboto-Condensed", "Arial", sans-serif;
+  font-family: "Roboto-Condensed-normal", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
+}
+
+@mixin light-roboto {
+  font-family: "Roboto-Condensed", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: lighter;
 }
 
 .visually-hidden:not(:focus):not(:active) {

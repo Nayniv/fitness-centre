@@ -32,7 +32,7 @@
 }
 
 .title-page__list {
-  @include normal-roboto;
+  @include light-roboto;
   font-size: 14px;
   line-height: 21px;
   text-align: right;
@@ -41,8 +41,8 @@
   list-style: none;
   text-transform: none;
   align-self: flex-start;
-  margin-top: -82px;
-  margin-left: 20px;
+  margin-top: -81px;
+  margin-left: 21px;
 }
 
 @media (min-width: $tablet-width) and (max-width: $desktop-width) {
